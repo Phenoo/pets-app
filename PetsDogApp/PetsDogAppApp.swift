@@ -12,6 +12,7 @@ struct PetsDogAppApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .background(Color.customGreen)
         }
     }
 }

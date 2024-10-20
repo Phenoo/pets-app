@@ -6,6 +6,14 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		2A79ED662CA34D5400F51101 /* 6202759-hd_1080_1920_30fps.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 2A79ED622CA34D5300F51101 /* 6202759-hd_1080_1920_30fps.mp4 */; };
+		2A79ED672CA34D5400F51101 /* 14319069-hd_1080_1920_30fps.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 2A79ED632CA34D5400F51101 /* 14319069-hd_1080_1920_30fps.mp4 */; };
+		2A79ED682CA34D5400F51101 /* 8959051-hd_1080_1920_25fps.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 2A79ED642CA34D5400F51101 /* 8959051-hd_1080_1920_25fps.mp4 */; };
+		2A79ED692CA34D5400F51101 /* 9669392-hd_1080_1920_30fps.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 2A79ED652CA34D5400F51101 /* 9669392-hd_1080_1920_30fps.mp4 */; };
+		2AFE0E942C9C111A00630F0A /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 2AFE0E932C9C111A00630F0A /* Lottie */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		2ACDE6482C9BB6D700C5B661 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,14 +32,47 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2A79ED622CA34D5300F51101 /* 6202759-hd_1080_1920_30fps.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "6202759-hd_1080_1920_30fps.mp4"; sourceTree = "<group>"; };
+		2A79ED632CA34D5400F51101 /* 14319069-hd_1080_1920_30fps.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "14319069-hd_1080_1920_30fps.mp4"; sourceTree = "<group>"; };
+		2A79ED642CA34D5400F51101 /* 8959051-hd_1080_1920_25fps.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "8959051-hd_1080_1920_25fps.mp4"; sourceTree = "<group>"; };
+		2A79ED652CA34D5400F51101 /* 9669392-hd_1080_1920_30fps.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "9669392-hd_1080_1920_30fps.mp4"; sourceTree = "<group>"; };
 		2ACDE6372C9BB6D600C5B661 /* PetsDogApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PetsDogApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2ACDE6472C9BB6D700C5B661 /* PetsDogAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PetsDogAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2ACDE6512C9BB6D700C5B661 /* PetsDogAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PetsDogAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		2ACDE6712C9BB76F00C5B661 /* Exceptions for "PetsDogApp" folder in "PetsDogApp" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 2ACDE6362C9BB6D600C5B661 /* PetsDogApp */;
+		};
+		2ACF97772C9CC4B1001565CC /* Exceptions for "PetsDogApp" folder in "PetsDogAppTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Resources/animate.json,
+			);
+			target = 2ACDE6462C9BB6D700C5B661 /* PetsDogAppTests */;
+		};
+		2ACF97782C9CC4B1001565CC /* Exceptions for "PetsDogApp" folder in "PetsDogAppUITests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Resources/animate.json,
+			);
+			target = 2ACDE6502C9BB6D700C5B661 /* PetsDogAppUITests */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		2ACDE6392C9BB6D600C5B661 /* PetsDogApp */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				2ACDE6712C9BB76F00C5B661 /* Exceptions for "PetsDogApp" folder in "PetsDogApp" target */,
+				2ACF97772C9CC4B1001565CC /* Exceptions for "PetsDogApp" folder in "PetsDogAppTests" target */,
+				2ACF97782C9CC4B1001565CC /* Exceptions for "PetsDogApp" folder in "PetsDogAppUITests" target */,
+			);
 			path = PetsDogApp;
 			sourceTree = "<group>";
 		};
@@ -52,6 +93,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2AFE0E942C9C111A00630F0A /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,9 +117,14 @@
 		2ACDE62E2C9BB6D600C5B661 = {
 			isa = PBXGroup;
 			children = (
+				2A79ED622CA34D5300F51101 /* 6202759-hd_1080_1920_30fps.mp4 */,
+				2A79ED642CA34D5400F51101 /* 8959051-hd_1080_1920_25fps.mp4 */,
+				2A79ED652CA34D5400F51101 /* 9669392-hd_1080_1920_30fps.mp4 */,
+				2A79ED632CA34D5400F51101 /* 14319069-hd_1080_1920_30fps.mp4 */,
 				2ACDE6392C9BB6D600C5B661 /* PetsDogApp */,
 				2ACDE64A2C9BB6D700C5B661 /* PetsDogAppTests */,
 				2ACDE6542C9BB6D700C5B661 /* PetsDogAppUITests */,
+				2AFE0E922C9C111A00630F0A /* Frameworks */,
 				2ACDE6382C9BB6D600C5B661 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,6 +137,13 @@
 				2ACDE6512C9BB6D700C5B661 /* PetsDogAppUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		2AFE0E922C9C111A00630F0A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -112,6 +166,7 @@
 			);
 			name = PetsDogApp;
 			packageProductDependencies = (
+				2AFE0E932C9C111A00630F0A /* Lottie */,
 			);
 			productName = PetsDogApp;
 			productReference = 2ACDE6372C9BB6D600C5B661 /* PetsDogApp.app */;
@@ -195,6 +250,9 @@
 			);
 			mainGroup = 2ACDE62E2C9BB6D600C5B661;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				2ACDE6882C9BC4B100C5B661 /* XCRemoteSwiftPackageReference "lottie-spm" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 2ACDE6382C9BB6D600C5B661 /* Products */;
 			projectDirPath = "";
@@ -212,6 +270,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A79ED662CA34D5400F51101 /* 6202759-hd_1080_1920_30fps.mp4 in Resources */,
+				2A79ED672CA34D5400F51101 /* 14319069-hd_1080_1920_30fps.mp4 in Resources */,
+				2A79ED682CA34D5400F51101 /* 8959051-hd_1080_1920_25fps.mp4 in Resources */,
+				2A79ED692CA34D5400F51101 /* 9669392-hd_1080_1920_30fps.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,6 +461,8 @@
 				DEVELOPMENT_TEAM = C3WFAPY3YY;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PetsDogApp/Info.plist;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Allow the app to use";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -428,6 +492,8 @@
 				DEVELOPMENT_TEAM = C3WFAPY3YY;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PetsDogApp/Info.plist;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Allow the app to use";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -558,6 +624,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2ACDE6882C9BC4B100C5B661 /* XCRemoteSwiftPackageReference "lottie-spm" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-spm.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.5.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2AFE0E932C9C111A00630F0A /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2ACDE6882C9BC4B100C5B661 /* XCRemoteSwiftPackageReference "lottie-spm" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 2ACDE62F2C9BB6D600C5B661 /* Project object */;
 }

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Apercu_bold_pro.otf</string>
+		<string>Apercu_regular_pro.otf</string>
+		<string>Isidora.otf</string>
+		<string>IsidoraBold.otf</string>
+		<string>IsidoraRegular.otf</string>
+		<string>Apercu_medium_pro.otf</string>
+		<string>IsidoraMedium.otf</string>
+		<string>IsidoraSemiBold.otf</string>
+	</array>
+</dict>
+</plist>
